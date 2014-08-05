@@ -1,0 +1,29 @@
+<html>
+<head>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src='http://cdn.ractivejs.org/latest/ractive.js'></script>
+<script src="capsule/finch.min.js"></script>
+<script src="capsule/main.js"></script>
+<script src="client/main.js"></script>
+</head>
+<body>
+  
+  <main>
+  
+  </main>
+  
+  <template name="birthday">
+    {{#birthdays }}
+      <div class="birthday">{{birthday}}</div>
+    {{/each }}
+  </template>
+  <template name="name">
+    {{name.first}}
+    {{name.last}}<br />
+    {{name.fullName}}
+  </template>
+  <a href="#/birthday"> Birthday</a>
+  <a href="#/name"> Name</a>
+  <a href="#/result/abcd"> Hello!</a>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+	"name": "carsonnwright/capsule",
+	"description": "Capsule Framework",
+	"keywords": ["Framework", "Capsule"],
+	"license": "MIT",
+	"require": {
+        "php": ">=5.3.0",
+		"klein/klein": "2.0.*",
+        "gabordemooij/redbean": "3.5.1"
+	}
+}
